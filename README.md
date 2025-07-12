@@ -15,9 +15,7 @@ Professional Telegram bot that demonstrates:
 
 ### 🤖 Bot Functionality
 - Interactive menu with inline keyboards
-- User authentication system
 - Real-time data updates
-- Multi-language support (RU/EN)
 
 ### 🕷️ Parsing Module
 - Website content extraction
