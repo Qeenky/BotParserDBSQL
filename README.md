@@ -7,8 +7,8 @@
 
 Professional Telegram bot that demonstrates:
 - **Telegram Bot Development** (pyTelegramBotAPI)
-- **Web Scraping** (BeautifulSoup/Scrapy)
-- **Database Integration** (PostgreSQL/SQLite)
+- **Web Scraping** (BeautifulSoup/Selenium)
+- **Database Integration** (PostgreSQL)
 - **Data Processing** (Pandas)
 
 ## 🌟 Key Features
@@ -22,11 +22,10 @@ Professional Telegram bot that demonstrates:
 ### 🕷️ Parsing Module
 - Website content extraction
 - Anti-blocking techniques
-- Data cleaning pipelines
 - Scheduled parsing tasks
 
 ### 🗃️ Database Layer
-- SQLAlchemy ORM integration
+- Asyncpg
 - Async data operations
 - Caching system
 - Backup automation
@@ -34,9 +33,8 @@ Professional Telegram bot that demonstrates:
 ## 🛠️ Technical Stack
 ```python
 {
-  "Telegram": "pyTelegramBotAPI",
+  "Telegram": "pyTelegramBotAPI[async]",
   "Parsing": ["BeautifulSoup", "Selenium"],
-  "Database": ["PostgreSQL", "SQLAlchemy"],
-  "Data": ["Pandas", "NumPy"],
-  "Infrastructure": ["Docker", "Redis"]
+  "Database": ["PostgreSQL", "Asyncpg"],
+  "Data": ["Pandas"],
 }
