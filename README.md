@@ -26,7 +26,6 @@ Professional Telegram bot that demonstrates:
 - Asyncpg
 - Async data operations
 - Caching system
-- Backup automation
 
 ## 🛠️ Technical Stack
 ```python
