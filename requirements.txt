@@ -1,0 +1,14 @@
+pandas
+beautifulsoup4
+requests
+lxml
+selenium
+webdriver-manager
+sqlalchemy
+pg8000
+pgcopy
+asyncpg
+pyTelegramBotAPI[async]
+aiohttp
+undetected_chromedriver
+setuptools
